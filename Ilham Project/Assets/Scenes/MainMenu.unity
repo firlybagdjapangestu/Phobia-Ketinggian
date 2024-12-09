@@ -3453,7 +3453,7 @@ MonoBehaviour:
   gazeDuration: 1.5
   gazeObjects:
   - {fileID: 220295534}
-  - {fileID: 1612814204}
+  - {fileID: 1231464368}
   audioSource: {fileID: 727960758}
   gazeItSfx: {fileID: 8300000, guid: d4b942eccc7d5d346b5e79d38c042edc, type: 3}
   ChoiceItSfx: {fileID: 8300000, guid: 5708447f2b635a34faef03b40bdfbd0f, type: 3}

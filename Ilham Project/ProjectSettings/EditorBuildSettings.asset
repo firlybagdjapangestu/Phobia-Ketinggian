@@ -15,16 +15,13 @@ EditorBuildSettings:
     path: Assets/Scenes/LV 1.unity
     guid: d78b694aee30d3e478f441828998cdac
   - enabled: 1
-    path: Assets/Scenes/Loading.unity
-    guid: 67575afe658aa394b878990482d478b8
-  - enabled: 1
     path: Assets/Scenes/LV 2.unity
     guid: 78c96e18703aaaa42aa9071e719c6764
   - enabled: 1
     path: Assets/Scenes/LV 3.unity
-    guid: f42dcd9857fdcf341af928c8f707446d
+    guid: 42f9ce5d7be333b459ddd42564440fcb
   - enabled: 1
     path: Assets/Scenes/LV 4.unity
-    guid: 780f6ff40c05d7546bd4e24cb37801e8
+    guid: 9c344439c208aa940bcca82f7dc6f691
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 09d8eee53d297b14194a05950c3115e6, type: 2}
