@@ -47,7 +47,7 @@ public class SurveyScript : MonoBehaviour
 
     public void ResultSurvey()
     {
-        if (worriedTotal <= 10)
+        if (worriedTotal <= 15)
         {
             int level = PlayerPrefs.GetInt("Level");
             if (level < 3) {
@@ -64,7 +64,7 @@ public class SurveyScript : MonoBehaviour
             
 
         }
-        else if (worriedTotal > 10 && worriedTotal <= 20)
+        else if (worriedTotal > 15 && worriedTotal <= 20)
         {
             questionDisplay.text = "Ulangi lagi level ini";
         }
