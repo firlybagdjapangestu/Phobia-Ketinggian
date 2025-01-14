@@ -53,22 +53,22 @@ public class SurveyScript : MonoBehaviour
             {
                 buttonNext.SetActive(true);                           // Aktifkan tombol "Next"
                 buttonExit.SetActive(false);                          // Nonaktifkan tombol "Exit"
-                questionDisplay.text = "Anda bisa untuk melanjutkan\nke level berikutnya";                // Pesan kelulusan
+                questionDisplay.text = "Anda bisa untuk melanjutkan\nke level berikutnya\n";                // Pesan kelulusan
             }
             else
             {
                 buttonExit.SetActive(true);                           // Aktifkan tombol "Exit"
                 buttonNext.SetActive(false);                          // Nonaktifkan tombol "Next"
-                questionDisplay.text = "Selamat dan semoga cepat pulih";                                 // Pesan akhir
+                questionDisplay.text = "Selamat dan semoga cepat pulih\n" ;                                 // Pesan akhir
             }
         }
         else if (worriedTotal > 15 && worriedTotal <= 20)             // Jika kekhawatiran sedang (> 15 dan <= 20)
         {
-            questionDisplay.text = "Ulangi lagi level ini";           // Pesan untuk mengulangi level
+            questionDisplay.text = "Ulangi lagi level ini\n" ;           // Pesan untuk mengulangi level
         }
         else if (worriedTotal > 20 && worriedTotal <= 30)             // Jika kekhawatiran tinggi (> 20 dan <= 30)
         {
-            questionDisplay.text = "Anda harus kembali\nke level sebelumnya";                            // Pesan untuk mundur level
+            questionDisplay.text = "Anda harus kembali\nke level sebelumnya\n" ;                            // Pesan untuk mundur level
         }
         else                                                          // Jika nilai tidak valid
         {
