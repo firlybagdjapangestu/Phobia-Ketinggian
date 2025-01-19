@@ -3219,7 +3219,7 @@ MonoBehaviour:
   InactiveMaterial: {fileID: 2100000, guid: 56083bed70fc2b348b82df0d1f2d465b, type: 2}
   GazedAtMaterial: {fileID: 2100000, guid: 4c41abc4bad144f4a85ba0eb9f915b85, type: 2}
   gazeDuration: 1.5
-  nameSceneToLoad: MainMenu
+  nameSceneToLoad: SelectLevel
   level: 0
   audioSource: {fileID: 7510271816877419440}
   gazeItSfx: {fileID: 8300000, guid: d4b942eccc7d5d346b5e79d38c042edc, type: 3}

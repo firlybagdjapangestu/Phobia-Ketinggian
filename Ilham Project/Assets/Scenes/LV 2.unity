@@ -391,6 +391,7 @@ GameObject:
   - component: {fileID: 733725889}
   - component: {fileID: 733725888}
   - component: {fileID: 733725887}
+  - component: {fileID: 733725892}
   m_Layer: 0
   m_Name: VRManager
   m_TagString: Untagged
@@ -549,6 +550,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &733725892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733725886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd08d3d750ba274baf1eea5ed5f42a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skyboxBank:
+  - {fileID: 2100000, guid: efd1c33efd2d58340b88804268e6833f, type: 2}
+  - {fileID: 2100000, guid: cede08c9fc471e64884909cd4bbeaf59, type: 2}
+  - {fileID: 2100000, guid: 2039a0ad0a9d05549928b70362f54902, type: 2}
+  area:
+  - {fileID: 1967972172}
 --- !u!1 &875068142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,6 +1163,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb66d601d8e54db4796df53f5f4ead0c, type: 3}
+--- !u!1 &1967972172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cb66d601d8e54db4796df53f5f4ead0c, type: 3}
+  m_PrefabInstance: {fileID: 1967972171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2140619118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2211,6 +2235,7 @@ MonoBehaviour:
   scaleText:
   - {fileID: 1962365606003957060}
   - {fileID: 1962365605516623833}
+  level: 0
 --- !u!1 &1962365606948549521
 GameObject:
   m_ObjectHideFlags: 0
@@ -3008,7 +3033,7 @@ MonoBehaviour:
   InactiveMaterial: {fileID: 2100000, guid: 56083bed70fc2b348b82df0d1f2d465b, type: 2}
   GazedAtMaterial: {fileID: 2100000, guid: 4c41abc4bad144f4a85ba0eb9f915b85, type: 2}
   gazeDuration: 1.5
-  nameSceneToLoad: MainMenu
+  nameSceneToLoad: SelectLevel
   level: 0
   audioSource: {fileID: 7510271817260830303}
   gazeItSfx: {fileID: 8300000, guid: d4b942eccc7d5d346b5e79d38c042edc, type: 3}

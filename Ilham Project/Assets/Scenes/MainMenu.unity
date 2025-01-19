@@ -1890,6 +1890,7 @@ GameObject:
   - component: {fileID: 737758698}
   - component: {fileID: 737758697}
   - component: {fileID: 737758696}
+  - component: {fileID: 737758700}
   m_Layer: 6
   m_Name: Play VR
   m_TagString: Untagged
@@ -1997,6 +1998,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737758694}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &737758700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737758694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d6868cc809e0a469b7a5bfde3c99e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InactiveMaterial: {fileID: 2100000, guid: be7830a116587424ca95a4c3f6e62e84, type: 2}
+  GazedAtMaterial: {fileID: 2100000, guid: 61dc1468ae4296f46b9153ff4a7e847d, type: 2}
+  gazeDuration: 2
+  nameSceneToLoad: SelectLevel
+  level: 0
+  audioSource: {fileID: 727960758}
+  gazeItSfx: {fileID: 8300000, guid: d4b942eccc7d5d346b5e79d38c042edc, type: 3}
+  ChoiceItSfx: {fileID: 8300000, guid: 5708447f2b635a34faef03b40bdfbd0f, type: 3}
 --- !u!1 &842005465
 GameObject:
   m_ObjectHideFlags: 0
