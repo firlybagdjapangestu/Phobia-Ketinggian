@@ -623,7 +623,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c8b64c1728a4893409085188b239fd1f, type: 3}
   - {fileID: 8300000, guid: 94ea4793164ae64489ce96241044664a, type: 3}
   - {fileID: 8300000, guid: 94ea4793164ae64489ce96241044664a, type: 3}
-  intructionSfx: {fileID: 8300000, guid: 1729f5d210193e74a8bad59587bfc5bf, type: 3}
+  intructionSfx:
+  - {fileID: 8300000, guid: 65408a68d9612e44bad7659f1ef63e2e, type: 3}
+  - {fileID: 8300000, guid: 1729f5d210193e74a8bad59587bfc5bf, type: 3}
+  lenguageID: 0
 --- !u!4 &733725891
 Transform:
   m_ObjectHideFlags: 0
@@ -1575,6 +1578,7 @@ GameObject:
   - component: {fileID: 674359180585898556}
   - component: {fileID: 268477586355247589}
   - component: {fileID: 7706580302471736257}
+  - component: {fileID: 7706580302471736258}
   m_Layer: 6
   m_Name: Agree Text
   m_TagString: Untagged
@@ -1681,6 +1685,7 @@ MonoBehaviour:
   - {fileID: 964045215167801582}
   - {fileID: 964045214546233971}
   level: 0
+  lenguageID: 0
 --- !u!23 &964045213426124344
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2374,6 +2379,7 @@ GameObject:
   - component: {fileID: 964045214546233968}
   - component: {fileID: 964045214546233982}
   - component: {fileID: 964045214546233969}
+  - component: {fileID: 964045214546233983}
   m_Layer: 6
   m_Name: Disagree Text
   m_TagString: Untagged
@@ -2423,6 +2429,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &964045214546233983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964045214546233971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 964045214546233969}
+  englishText: Strongly Disagree
+  indonesianText: Sangat Tidak Setuju
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!102 &964045215167801580
 TextMesh:
   serializedVersion: 3
@@ -2498,6 +2521,7 @@ GameObject:
   - component: {fileID: 964045215167801583}
   - component: {fileID: 964045215167801581}
   - component: {fileID: 964045215167801580}
+  - component: {fileID: 964045215167801584}
   m_Layer: 6
   m_Name: Agree Text
   m_TagString: Untagged
@@ -2520,6 +2544,23 @@ Transform:
   m_Father: {fileID: 964045214192307185}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &964045215167801584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964045215167801582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 964045215167801580}
+  englishText: Strongly Agree
+  indonesianText: Sangat Setuju
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!33 &964045215280726648
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2758,6 +2799,7 @@ GameObject:
   - component: {fileID: 1766343834592712663}
   - component: {fileID: 1766343834592712657}
   - component: {fileID: 1766343834592712662}
+  - component: {fileID: 1766343834592712664}
   m_Layer: 6
   m_Name: Question Text (1)
   m_TagString: Untagged
@@ -2802,6 +2844,23 @@ Transform:
   m_Father: {fileID: 7314053712459394456}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1766343834592712664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766343834592712660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 1766343834592712662}
+  englishText: Reload
+  indonesianText: Ulangi
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!33 &1841763480543062014
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3095,6 +3154,7 @@ GameObject:
   - component: {fileID: 1003202985569270490}
   - component: {fileID: 7914062717295506453}
   - component: {fileID: 1073039175497163064}
+  - component: {fileID: 7914062717295506454}
   m_Layer: 6
   m_Name: Agree Text
   m_TagString: Untagged
@@ -3477,6 +3537,7 @@ GameObject:
   - component: {fileID: 6926701657606739710}
   - component: {fileID: 6926701657606739696}
   - component: {fileID: 6926701657606739697}
+  - component: {fileID: 6926701657606739712}
   m_Layer: 6
   m_Name: Question Text
   m_TagString: Untagged
@@ -3484,6 +3545,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6926701657606739712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6926701657606739711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 6926701657606739697}
+  englishText: Exit
+  indonesianText: Keluar
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!4 &6926701657765272361
 Transform:
   m_ObjectHideFlags: 0
@@ -3850,6 +3928,23 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!114 &7706580302471736258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717016486783366896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 7706580302471736257}
+  englishText: Next
+  indonesianText: Berikutnya
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!102 &7834275335263167840
 TextMesh:
   serializedVersion: 3
@@ -3929,6 +4024,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7914062717295506454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895695505886512125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 1073039175497163064}
+  englishText: Back
+  indonesianText: Kembali
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!1 &8265771857037027820
 GameObject:
   m_ObjectHideFlags: 0

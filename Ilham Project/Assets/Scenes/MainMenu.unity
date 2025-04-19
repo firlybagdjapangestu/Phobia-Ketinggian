@@ -209,10 +209,17 @@ TextMesh:
     ANA YULIANTI
 
 
-    teknik Informatika
+    Program Studi
+    Teknik Informatika
 
-    Universitas
-    Islam Riau'
+    Fakultas Teknik
+
+    Universitas Islam Riau
+
+
+
+
+    @copyrightIlham2025'
   m_OffsetZ: 0
   m_CharacterSize: 0.5
   m_LineSpacing: 1
@@ -279,6 +286,7 @@ GameObject:
   - component: {fileID: 116829460}
   - component: {fileID: 116829462}
   - component: {fileID: 116829461}
+  - component: {fileID: 116829463}
   m_Layer: 0
   m_Name: GraphicsAPIText (2)
   m_TagString: Untagged
@@ -365,6 +373,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &116829463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116829459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 116829461}
+  englishText: Start VR
+  indonesianText: Mulai VR
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!1 &182747431
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +709,7 @@ GameObject:
   - component: {fileID: 259353051}
   - component: {fileID: 259353053}
   - component: {fileID: 259353052}
+  - component: {fileID: 259353054}
   m_Layer: 0
   m_Name: GraphicsAPIText (1)
   m_TagString: Untagged
@@ -770,6 +796,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &259353054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259353050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 259353052}
+  englishText: Start VR
+  indonesianText: Mulai VR
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!1 &412600249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1043,7 @@ GameObject:
   - component: {fileID: 454484480}
   - component: {fileID: 454484482}
   - component: {fileID: 454484481}
+  - component: {fileID: 454484483}
   m_Layer: 0
   m_Name: GraphicsAPIText
   m_TagString: Untagged
@@ -1088,6 +1132,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &454484483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454484479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 454484481}
+  englishText: Fear of heights, or acrophobia, is an excessive fear of heights. The
+    fear experienced by individuals with acrophobia can trigger several symptoms,
+    such as anxiety, stress, or panic, when they are in high places.
+  indonesianText: "Fobia ketinggian atau akrofobia merupakan  ketakutan yang berlebihan
+    terhadap  ketinggian. Rasa takut yang dialami  penderita fobia ketinggian dapat
+    menimbulkan beberapa gejala,  seperti kecemasan, stres, atau panik,  saat berada
+    di\_tempat\_tinggi."
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!1 &457063778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,6 +1707,7 @@ GameObject:
   - component: {fileID: 724393156}
   - component: {fileID: 724393158}
   - component: {fileID: 724393157}
+  - component: {fileID: 724393159}
   m_Layer: 0
   m_Name: GraphicsAPIText (1)
   m_TagString: Untagged
@@ -1727,6 +1794,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &724393159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724393155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 724393157}
+  englishText: Have you understood the instructions and would you like to continue
+    to the pre-survey?
+  indonesianText: Apakah anda sudah paham  dan ingin melanjutkan untuk pra-survey
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!1 &727960757
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,6 +2234,7 @@ GameObject:
   - component: {fileID: 908138631}
   - component: {fileID: 908138633}
   - component: {fileID: 908138632}
+  - component: {fileID: 908138634}
   m_Layer: 0
   m_Name: GraphicsAPIText (1)
   m_TagString: Untagged
@@ -2236,6 +2322,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &908138634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908138630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 908138632}
+  englishText: Welcome to the VR World Point the white dot in front of you at the
+    button below and wait for a moment.
+  indonesianText: Selamat Datang Di Dunia VR arahkan titik putih di depan anda  ke
+    tombol di bawah ini dan tunggu beberapa saat
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!1 &910920699
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,6 +2871,7 @@ GameObject:
   - component: {fileID: 1176197010}
   - component: {fileID: 1176197012}
   - component: {fileID: 1176197011}
+  - component: {fileID: 1176197013}
   m_Layer: 0
   m_Name: GraphicsAPIText (2)
   m_TagString: Untagged
@@ -2852,6 +2958,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1176197013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176197009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 1176197011}
+  englishText: Start VR
+  indonesianText: Mulai VR
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!1 &1231464368
 GameObject:
   m_ObjectHideFlags: 0
@@ -4543,6 +4666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1857568201}
+  - component: {fileID: 1857568202}
   m_Layer: 0
   m_Name: Tutorial Menu
   m_TagString: Untagged
@@ -4571,6 +4695,33 @@ Transform:
   m_Father: {fileID: 2535874}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1857568202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857568200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0cf45eb674b9a0488c1069a587221d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteDisplay:
+  - {fileID: 1813386941}
+  - {fileID: 1641064773}
+  - {fileID: 1828206106}
+  - {fileID: 1007631431}
+  spritesIntructur:
+  - {fileID: 21300000, guid: 7dfdb76acd19ff14e9a5dc1444ebaf72, type: 3}
+  - {fileID: 21300000, guid: 1c19a9761b4f4434eba4ddbb721cf0eb, type: 3}
+  - {fileID: 21300000, guid: 4506fd81ef3fd114aa6cc4e62e0d1831, type: 3}
+  - {fileID: 21300000, guid: 01ae82c07c8423e428d78924fb922cad, type: 3}
+  - {fileID: 21300000, guid: 68334a6814c0dcb468dfd98d0bb99fb3, type: 3}
+  - {fileID: 21300000, guid: f216ae031ba9f2f4baeffba2ff9da70f, type: 3}
+  - {fileID: 21300000, guid: bd6f013605a8f2943b28100376cee556, type: 3}
+  - {fileID: 21300000, guid: d775ba3d9b82eaa41b1352d153c10177, type: 3}
+  lenguageID: 0
 --- !u!1 &2075817601
 GameObject:
   m_ObjectHideFlags: 0
@@ -4820,6 +4971,7 @@ GameObject:
   - component: {fileID: 2112983043}
   - component: {fileID: 2112983045}
   - component: {fileID: 2112983044}
+  - component: {fileID: 2112983046}
   m_Layer: 0
   m_Name: GraphicsAPIText (2)
   m_TagString: Untagged
@@ -4906,6 +5058,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2112983046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112983042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 2112983044}
+  englishText: Back
+  indonesianText: Kembali
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!1 &2128718803
 GameObject:
   m_ObjectHideFlags: 0
@@ -5186,6 +5355,7 @@ GameObject:
   - component: {fileID: 5095723460002848984}
   - component: {fileID: 5095723460002848982}
   - component: {fileID: 5095723460002848985}
+  - component: {fileID: 5095723460002848988}
   m_Layer: 6
   m_Name: Disagree Text
   m_TagString: Untagged
@@ -5193,6 +5363,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5095723460002848988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5095723460002848987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 5095723460002848985}
+  englishText: Strongly Disagree
+  indonesianText: Sangat Tidak Setuju
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!102 &5095723460589797956
 TextMesh:
   serializedVersion: 3
@@ -5268,6 +5455,7 @@ GameObject:
   - component: {fileID: 5095723460589797959}
   - component: {fileID: 5095723460589797957}
   - component: {fileID: 5095723460589797956}
+  - component: {fileID: 5095723460589797960}
   m_Layer: 6
   m_Name: Agree Text
   m_TagString: Untagged
@@ -5290,6 +5478,23 @@ Transform:
   m_Father: {fileID: 5095723461698953561}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5095723460589797960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5095723460589797958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7a061acd125444cabcdc275be7cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 5095723460589797956}
+  englishText: Strongly Agree
+  indonesianText: Sangat Setuju
+  lenguageID: 0
+  maxCharactersPerLine: 40
 --- !u!33 &5095723460744751312
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5518,6 +5723,7 @@ MonoBehaviour:
   scaleText:
   - {fileID: 5095723460589797958}
   - {fileID: 5095723460002848987}
+  lenguageID: 0
 --- !u!33 &5095723461077130908
 MeshFilter:
   m_ObjectHideFlags: 0

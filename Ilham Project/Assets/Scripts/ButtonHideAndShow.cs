@@ -66,4 +66,8 @@ public class ButtonHideAndShow : MonoBehaviour
             _myRenderer.material = gazedAt ? GazedAtMaterial : InactiveMaterial; // Mengatur material berdasarkan status gaze
         }
     }
+
+
+
+
 }

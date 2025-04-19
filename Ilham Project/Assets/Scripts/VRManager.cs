@@ -12,10 +12,12 @@ public class VRManager : MonoBehaviour
     [SerializeField] private int selectedLevel;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip[] backSound;
-    [SerializeField] private AudioClip intructionSfx;
+    [SerializeField] private AudioClip[] intructionSfx;
+    [SerializeField] private int lenguageID;
 
     private void Awake()
     {
+        lenguageID = PlayerPrefs.GetInt("LenguageID", 0); // Default ke 0 jika belum di-set
         selectedLevel = PlayerPrefs.GetInt("Level", -1); // Default ke -1 jika belum di-set
         /*if (selectedLevel < 0 || selectedLevel >= playerSpawnPosition.Length)
         {
@@ -27,7 +29,7 @@ public class VRManager : MonoBehaviour
         playerSpawnPosition[2] = GameObject.Find("Spawn LV3").transform;
         playerSpawnPosition[3] = GameObject.Find("Spawn LV4").transform;*/
         //GameObject playerObject = GameObject.Find("Player");
-        audioSource.PlayOneShot(intructionSfx);
+        audioSource.PlayOneShot(intructionSfx[lenguageID]);
         audioSource.clip = backSound[selectedLevel];
         audioSource.Play();
     }
